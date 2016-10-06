@@ -2,21 +2,18 @@
 
 # Create a vector `x` that has the values 10 through 20 in it (using the `:` operator)
 
-
-# Create a vector `y` that has the values 21 through 30 in it (using the `seq` operator)
-
-
-# Create a vector `z` by combining the vectors `x` and `y`
-
-
+x <- 10:20
+# Create a vector `y` that has the values 21 through 30 in it (using the `seq` operato
 # Create a variable `w` that is equal to the 11th element in your vector `z`
-
+w <- z[11]
 
 # Create a vector `q` that is equal to the second through the 5 elements of `z`
 
+q <- z[2:5]
 
 # Create a variable `len` that is equal to the length of your vector `q`
 
+len <- length(z)
 
 ### Bonus ###
 
